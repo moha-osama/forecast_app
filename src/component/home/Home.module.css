@@ -1,0 +1,36 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 8.5rem);
+  position: relative;
+  background-color: rgb(30, 32, 43);
+}
+
+.main-img {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  background-color: black;
+  width: 100%;
+  height: 22rem;
+  z-index: 0;
+}
+
+.main-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+
+.input {
+  z-index: 999;
+  padding-top: 4.5rem;
+}
+
+.widget {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  padding-top: 5rem;
+}

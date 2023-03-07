@@ -1,0 +1,34 @@
+.error-page {
+  display: flex;
+  align-items: center;
+  background-color: #12131a;
+  width: 100%;
+  height: calc(100vh - 20.5rem);
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e202b;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  color: white;
+}
+
+.error svg {
+  margin-top: 2rem;
+  color: red;
+  width: 5rem;
+  height: 5rem;
+}
+
+.info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,50 @@
+.widget {
+  min-width: 16rem;
+  background-color: #262936;
+  border-radius: 12px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.widget h3 {
+  padding-left: 1rem;
+  color: #bfc1c8;
+  font-weight: 300;
+  font-size: 27px;
+}
+
+.widget nav {
+  display: flex;
+  margin-top: -2rem;
+  margin-left: -2rem;
+}
+
+.widget nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.widget nav ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 16px;
+}
+
+.widget nav ul li p {
+  cursor: pointer;
+  color: white;
+  transition: 0.1s;
+}
+
+.widget nav ul li p:hover {
+  color: #009ad8;
+}
+
+.widget nav ul li span {
+  color: #009ad8;
+}

@@ -1,0 +1,27 @@
+.news-page {
+  background-color: rgb(30, 32, 43);
+}
+
+.header {
+  padding-top: 1rem;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2.5rem 0;
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}

@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 8.5rem;
+  display: flex;
+  background-color: rgb(30, 32, 43);
+  color: white;
+}
+
+.notifications {
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.key svg {
+  scale: 3;
+  transition: 0.1s;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header img {
+  width: 3.5rem;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.header a {
+  border-radius: 12rem;
+  padding: 0 0.5rem 0.2rem 0.5rem;
+  border: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.header a:hover,
+.active {
+  border: 2px solid #009ad8;
+  color: #009ad8;
+}
+
+.header li:last-child svg {
+  scale: 3;
+}
+
+.header li:last-child {
+  margin-left: 8rem;
+}
+
+.header li:last-child:hover a {
+  color: red;
+}
+
+.header li:last-child a {
+  border: none;
+}
+
+.logout {
+  display: flex;
+  gap: 2rem;
+  background-color: #4c0000;
+  padding: 0.3rem 0.5rem;
+  border-radius: 12px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.logout:hover {
+  cursor: pointer;
+}

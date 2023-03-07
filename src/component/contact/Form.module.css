@@ -1,0 +1,67 @@
+.area {
+  display: flex;
+  flex-direction: column;
+}
+
+.area h1 {
+  color: white;
+  font-weight: 400;
+}
+
+.area p {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.form input {
+  font-size: 14px;
+  height: 2rem;
+  border-radius: 8rem;
+  border: 2px solid #393c48;
+  background-color: #1e202b;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.form input:focus {
+  outline: none;
+  border: 2px solid #1da5dc;
+}
+
+.text-area {
+  grid-row: -3/5;
+  grid-column: -3/-1;
+
+  position: relative;
+}
+
+.text-area textarea {
+  resize: none;
+  width: 95%;
+  height: 100%;
+  font-size: 14px;
+  border-radius: 24px;
+  border: 2px solid #393c48;
+  background-color: #1e202b;
+  color: white;
+  padding: 0.8rem 1rem;
+}
+
+.text-area textarea:focus {
+  outline: none;
+
+  border: 2px solid #1da5dc;
+}
+
+.btn {
+  scale: 1.2;
+  position: absolute;
+  bottom: -5rem;
+  right: 1rem;
+}

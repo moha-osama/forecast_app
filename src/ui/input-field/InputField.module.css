@@ -1,0 +1,48 @@
+.input {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.input input {
+  width: 100%;
+  border-radius: 12rem;
+  background-color: rgb(30, 32, 43);
+  border: 1px solid transparent;
+  padding: 1rem;
+  font-size: 16px;
+  color: white;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.search-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0.2rem;
+}
+
+.search-button button {
+  border: none;
+  padding: 0.9rem 2.5rem;
+  border-radius: 12rem;
+  background-color: #009ad8;
+  color: white;
+
+  transition: 0.1s;
+}
+
+.search-button :hover,
+.search-button :active {
+  cursor: pointer;
+  background-color: #0a506b;
+}

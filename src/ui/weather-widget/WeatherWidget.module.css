@@ -1,0 +1,90 @@
+.area {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 70rem;
+  margin: 0 auto;
+  background-color: rgb(50, 53, 68);
+  height: 18rem;
+  border-radius: 12px;
+  position: relative;
+}
+
+.header {
+  z-index: 0;
+  position: absolute;
+  background-color: #1e202b6b;
+  height: 3rem;
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  width: 100%;
+}
+
+.date {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container p {
+  color: #bfc1c8;
+}
+
+.weather-body {
+  color: #bfc1c8;
+  padding: 0 1.5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.weather-body div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-height: 3rem;
+}
+
+.country-name p {
+  font-size: 20px;
+}
+
+.temp-deg {
+  display: flex;
+  gap: 10%;
+}
+
+.temp-deg p {
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+}
+
+.temp-deg img {
+  scale: 1.5;
+}
+
+.info-sec {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.icon span {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  padding-right: 0.2rem;
+}

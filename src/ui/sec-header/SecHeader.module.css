@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #262936;
+  width: 80%;
+  max-width: 80rem;
+  margin: 0 auto;
+  height: 3.5rem;
+  border-radius: 8rem;
+  color: #bfc1c8;
+  font-size: 14px;
+}
+
+.header p {
+  padding-left: 2rem;
+  transition: 0.3s;
+}
+
+.header span {
+  color: white;
+  padding-left: 0.5rem;
+  transition: 0.3s;
+}
+
+.header a:hover,
+.header a:active,
+.active {
+  color: #009ad8;
+}

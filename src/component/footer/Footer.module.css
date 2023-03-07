@@ -1,0 +1,51 @@
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+  background-color: rgb(38, 41, 54);
+  height: 12rem;
+}
+.r-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.bar {
+  width: 45rem;
+}
+
+.text {
+  color: white;
+}
+
+.links {
+  padding-top: 2rem;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.links ul li {
+  color: #1e202b;
+  background-color: #1da5dc;
+  border-radius: 3px;
+  padding: 0.2rem 0.3rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  fill-opacity: 1;
+  transition: 0.3s;
+}
+
+.links ul li:hover,
+.links ul li:active {
+  background-color: #262936;
+  color: #1da5dc;
+}

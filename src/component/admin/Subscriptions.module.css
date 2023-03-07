@@ -1,0 +1,43 @@
+.page {
+  color: white;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.page nav {
+  padding-top: 4rem;
+}
+
+.header {
+  font-size: 13px;
+  z-index: 999;
+  padding-left: 2rem;
+  position: fixed;
+  width: 42rem;
+  color: #009ad8;
+  background-color: black;
+}
+
+.page ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page li {
+  padding: 1rem 0;
+}
+
+.page li:last-child {
+  padding: 1rem 0;
+}
+
+.page hr {
+  width: 80%;
+  color: white;
+}
+
+.page p {
+  color: white;
+}

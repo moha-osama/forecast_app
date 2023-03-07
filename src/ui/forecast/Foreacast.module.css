@@ -1,0 +1,39 @@
+.forecast {
+}
+
+.forecast ul {
+  height: 18rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.forecast li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.forecast li:nth-child(odd) {
+  background-color: #262936;
+}
+
+.forecast h3 {
+  z-index: 1;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.forecast img {
+}
+
+.forecast h2 {
+  font-family: sans-serif;
+}
+
+.iseven {
+}

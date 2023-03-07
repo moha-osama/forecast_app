@@ -1,0 +1,11 @@
+.droplist select {
+  width: fit-content;
+  min-width: 8rem;
+  height: 2rem;
+  border-radius: 12rem;
+  border: none;
+  background-color: #262936;
+  color: white;
+  font-size: 14px;
+  padding: 0.5rem 2rem;
+}

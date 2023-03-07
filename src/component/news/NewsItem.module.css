@@ -1,0 +1,28 @@
+.new-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40rem;
+  border-bottom: 0.3px solid #bfc1c862;
+  padding-bottom: 1rem;
+}
+
+.new-item h2 {
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.img-box {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.img-box img {
+  width: 120%;
+  border-radius: 12px;
+}
+
+.new-item p {
+  color: #bfc1c8;
+}

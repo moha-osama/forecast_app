@@ -1,0 +1,84 @@
+.message-page {
+  overflow-y: scroll;
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  z-index: 999;
+  padding-left: 2rem;
+  position: fixed;
+  width: 42rem;
+  color: #009ad8;
+  background-color: black;
+}
+
+.message-page nav {
+  padding-top: 4rem;
+}
+
+.message-page nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 90%;
+  list-style: none;
+}
+
+.message-page nav ul li {
+  background-color: #525357;
+  border-radius: 14px;
+}
+
+.message-card {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.message-card hr {
+  position: absolute;
+  left: 12rem;
+  height: 80%;
+  border: 3px solid #009ad8;
+}
+
+.card-header {
+  font-size: 12px;
+  color: gainsboro;
+  padding-right: 1rem;
+  width: 8rem;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-header h1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.card-body {
+  padding-left: 3rem;
+}
+
+.card-body h4 {
+  font-weight: 400;
+  color: white;
+}
+
+.card-body h2 {
+  color: #02212e;
+}
+
+.msg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  text-align: center;
+  z-index: 9999;
+  color: white;
+}
