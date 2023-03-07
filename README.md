@@ -6,7 +6,7 @@ Forecast application is a simple website showing news and live cams of cities an
 
 <h1>Demo👇</h1> https://forecast-demo-app.netlify.app/
 
-<h1>To Try Access page</h1>
+<h1>To Access page</h1>
 <h4>LogIn with</h4>
 email: 123@g.com<br/>
 pass: 123123
